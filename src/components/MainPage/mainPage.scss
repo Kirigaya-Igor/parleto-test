@@ -1,0 +1,36 @@
+.mainPage {
+  background-color: #1A1A1A;
+
+  .mainPageContent {
+    margin-top: 30px;
+  }
+
+  .mainPageItem {
+    margin-top: 10px;
+    padding-top: 5px;
+    border-top: 1px solid rgb(255,255,255, 0.7);
+  }
+
+  .mainPageStatistics {
+    margin-top: 50px;
+    padding-left: 30px;
+  }
+
+  .textRed {
+    color: red;
+  }
+
+  .searchInput {
+    width: 100%;
+    margin: 5px 5px;
+    border-radius: 8px;
+    border: 1px solid black;
+
+    &:active,
+    &:focus {
+      border: 2px solid deeppink;
+      box-shadow: none !important;
+      outline: none !important;
+    }
+  }
+}
